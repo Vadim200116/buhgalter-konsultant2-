@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <div class="grid-container">
+    <div class="grid-container" id="main">
         <div class="grid-item top-line">
             <div class="logo">
                 <img src="./images/logo.png" alt="logo" width="100px" height="43px">
@@ -30,11 +30,11 @@
                 </div> 
                 <div class="top-line_menu">
                     <ul class="nav">
-                    <li class="menu__list"><a href="#" class="menu__link"> ГЛАВНАЯ</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link"> УСЛУГИ</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link"> КЕЙСЫ</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link"> О КОМПАНИИ</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link"> КОНТАКТЫ</a></li>
+                    <li class="menu__list"><a href="#main" class="menu__link"> ГЛАВНАЯ</a></li>
+                    <li class="menu__list"><a href="#services" class="menu__link"> УСЛУГИ</a></li>
+                    <li class="menu__list"><a href="#clients" class="menu__link"> КЛИЕНТЫ</a></li>
+                    <li class="menu__list"><a href="#about_us" class="menu__link"> О КОМПАНИИ</a></li>
+                    <li class="menu__list"><a href="#contacts" class="menu__link"> ОБРАНТАЯ СВЯЗЬ</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                 <button class="button button_write">Наша презентация</button>
             </div>
         </div>
-        <div class="grid-item our_services">
+        <div class="grid-item our_services" id="services">
             <div class="service_text">
                 <h2 class="block_head">Наши услуги</h2>
                 <h1 class="block_start">Мы специализируемся</h1>
@@ -59,7 +59,7 @@
             <div class="service_name"> <p>Бухгалтерское обслуживание</p></div>
             </div>
         </div>
-        <div class="grid-item about_us">
+        <div class="grid-item about_us" id="about_us">
             <div class="about_us-text">
                 <h2 class="block_head">О нас</h2>
                 <h1 class="block_start">Компания<br> Бухгалтер-Консультант</h1>
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item clients">
+        <div class="grid-item clients" id="clients">
             <div class="clients_text">
                 <h2 class="block_head">Наши клиенты</h2>
                 <h1 class="block_start">С нами работают</h1>
@@ -100,7 +100,7 @@
                 <img src="./images/windows.png" alt="windows">
             </div>
         </div>
-        <div class="grid-item reviews">
+        <div class="grid-item reviews" id="reviews">
             <div class="reviews_text">
                 <h2 class="block_head">Отзывы</h2>
                 <h1 class="block_start">Ваши благодарности</h1>
@@ -118,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item contact">
+        <div class="grid-item contact" id="contacts">
             <div class="contact_text">
                 <h1 class="block_start">Связь с нами</h1>
                 <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
@@ -144,11 +144,11 @@
                     <span></span>
                 </a>
                 <ul class="mobile-list">
-                    <li><a href="" class="mobile-list__item">ГЛАВНАЯ</a></li>                   </li>
-                    <li><a href="" class="mobile-list__item">УСЛУГИ</a></li>
-                    <li><a href="" class="mobile-list__item">КЕЙСЫ</a></li>
-                    <li><a href="" class="mobile-list__item">О КОМПАНИИ</a></li>
-                    <li><a href="" class="mobile-list__item">КОНТАКТЫ</a></li>
+                    <li><a href="#main" class="mobile-list__item">ГЛАВНАЯ</a></li>      
+                    <li><a href="#services" class="mobile-list__item">УСЛУГИ</a></li>
+                    <li><a href="#clients" class="mobile-list__item">КЕЙСЫ</a></li>
+                    <li><a href="#about_us" class="mobile-list__item">О КОМПАНИИ</a></li>
+                    <li><a href="#contacts" class="mobile-list__item">КОНТАКТЫ</a></li>
                 </ul>
             </div>
         </div>

@@ -64,6 +64,11 @@ h3{
     grid-column: 2 / 3;
     grid-template-rows: 22px 40px 18px 31px;
     grid-template-columns: 445px 665px ;
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    height: 111px;
+    padding-left: 405px;
 }
 
 .logo{
@@ -103,7 +108,7 @@ h3{
     list-style-type: none;
     border: 0;
     outline: none;
-    font-size: 13px;
+    font-size: 16px;
     } 
 
 .nav{
@@ -135,6 +140,9 @@ h3{
 }
 .burger-icon span:nth-child(2){
     margin: 6px 0px;
+}
+.mobile-container:before{
+    opacity: 0;
 }
 .mobile-container{
     opacity: 0;
@@ -338,6 +346,7 @@ font-size: 55px;
     background: #EBEBEB;
 }
 .clients_text{
+    margin-top:20px ;
     display: grid;
     grid-row: 2 / 3;
     grid-column: 2 / 3;   
